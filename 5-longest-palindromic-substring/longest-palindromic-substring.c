@@ -26,7 +26,6 @@ char* longestPalindrome(char* s) {
             end = i + max_len / 2;
         }
     }
-    
     s[end + 1] = '\0';
     return s + start;
 }
